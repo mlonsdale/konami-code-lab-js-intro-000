@@ -3,10 +3,11 @@
  function init() {
    let index = 0;
 
-   document.body.addEventListener('keydown', function(e) {       
+   document.body.addEventListener('keydown', function(e) {
      const keyPressed = e.key;
+     console.log("pressed " + keyPressed);
+
      if (keyPressed === codes[index]) {
-          console.log("pressed " + keyPressed)
           index++;
 
          if (index === codes.length) {
