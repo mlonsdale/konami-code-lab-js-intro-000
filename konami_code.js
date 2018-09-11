@@ -3,7 +3,7 @@
  function init() {
    var index = -1;
 
-   document.body.addEventListener('keydown', keyHandler(e)) {
+   document.body.addEventListener('keydown', keyHandler(e){
       var newKey = e.key;
       console.log(newKey);
 
