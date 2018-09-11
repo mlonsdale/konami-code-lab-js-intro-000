@@ -3,8 +3,8 @@
  function init() {
    let index = 0;
 
-   document.body.addEventListener('keydown', function(e) {
-     const keyPressed = e.locale;
+   document.body.addEventListener('keydown', function(event) {
+     const keyPressed = event.type;
      console.log("pressed " + keyPressed);
 
      if (keyPressed === codes[index]) {
