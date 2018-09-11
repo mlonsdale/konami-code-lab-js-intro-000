@@ -5,7 +5,7 @@
 
    document.body.addEventListener('keydown', (event) => {
       const keyPressed = event.key;
-      console.log(codes[index]);
+      console.log("match " + codes[index]);
 
       if (keyPressed === codes[index]) {
           //console.log(codes[index], codes[length])
