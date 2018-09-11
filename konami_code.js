@@ -48,7 +48,7 @@ function init() {
      const keysPressed = e.key;
     // console.log(keyPressed);
 
-     if (keysPressed === codes[index]) {
+     if (keysPressed === codes[index-1]) {
          //console.log(event);
          index++;
 
