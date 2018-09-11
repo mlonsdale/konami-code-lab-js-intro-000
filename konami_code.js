@@ -3,9 +3,14 @@
  function init() {
    var index = -1;
 
-   document.body.addEventListener('keydown', keyHandler(e){
-      var newKey = e.key;
-      console.log(newKey);
+   function keyHandler(e) {
+     var newKey = e.key;
+     console.log(newKey);
+
+   }
+
+
+   document.body.addEventListener('keydown', keyHandler(e)) {
 
       if (newKey === konami[index]) {
           console.log("pressed ")
