@@ -4,10 +4,6 @@
    let index = 0;
 
    document.body.addEventListener('keydown', function(event) {
-     const eventType = event.type;
-     const whichKey = event.code;
-     const repeating = event.repeat;
-     const locate = event.location;
 
      console.log(whichKey);
 
