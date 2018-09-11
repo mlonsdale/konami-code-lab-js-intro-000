@@ -3,7 +3,7 @@
  function init() {
    let index = 0;
 
-   document.addEventListener('keydown', (event) => {
+   document.addEventListener('keydown' && 'keyup', (event) => {
      const keyName = event.key;
      console.log(keyName);
 
