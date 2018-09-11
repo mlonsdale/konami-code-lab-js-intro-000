@@ -4,7 +4,7 @@
    let index = -1;
 
    document.body.addEventListener('keydown', (event) => {
-      const newKey = event.key;
+      var newKey = event.key;
       console.log(newKey);
 
       if (newKey === konami[index]) {
