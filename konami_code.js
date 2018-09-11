@@ -61,7 +61,7 @@ function init() {
      } else {
         index = 0;
         //console.log(keys);
-        console.log(" incorrect key");
+        //console.log(" incorrect key");
      }
    })
 }
