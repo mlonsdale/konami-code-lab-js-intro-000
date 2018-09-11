@@ -1,4 +1,33 @@
  const codes = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+
+ function init() {
+   let index = 0;
+
+   document.body.addEventListener('keydown', function(event) {
+      const keyPressed = event.key;
+      console.log(event.key);
+
+      if (keyPressed === codes[index]) {
+          //console.log(event);
+          index++;
+
+         if (index === codes.length) {
+           window.alert("Hurray!");
+           //console.log("YAY!!!");
+           index = 0;
+         }
+
+      } else {
+         index = 0;
+         //console.log(keys);
+         //console.log(" incorrect key");
+      }
+    })
+ }
+
+
+
+
  // [
  //   "ArrowUp",
  //   "ArrowUp",
@@ -39,29 +68,3 @@
 //
 //
 // }
-
-
-function init() {
-  let index = 0;
-
-  document.body.addEventListener('keydown', function(event) {
-     const keyPressed = event.key;
-     console.log(event.key);
-
-     if (keyPressed === codes[index]) {
-         //console.log(event);
-         index++;
-
-        if (index === codes.length) {
-          window.alert("Hurray!");
-          //console.log("YAY!!!");
-          index = 0;
-        }
-
-     } else {
-        index = 0;
-        //console.log(keys);
-        //console.log(" incorrect key");
-     }
-   })
-}
