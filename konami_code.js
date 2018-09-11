@@ -44,7 +44,7 @@
 function init() {
   var index = 0;
 
-  document.body.addEventListener('keydown', function(keyboardEvent) {
+  document.body.addEventListener('keyup', function(keyboardEvent) {
      const keyPressed = keyboardEvent.key;
      console.log(keyPressed);
 
