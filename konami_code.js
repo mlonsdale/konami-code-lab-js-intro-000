@@ -3,12 +3,8 @@
  function init() {
    let index = 0;
 
-   document.body.addEventListener('keypress' || 'keydown', function(event) {
-     const eventType = event.type;
-     const whichKey = event.code;
-     const repeating = event.repeat;
-     const locate = event.location;
-
+   document.addEventListener('keydown', (event) => {
+     const keyName = event.key;
      console.log(eventType);
 
      if (whichKey === codes[index]) {
