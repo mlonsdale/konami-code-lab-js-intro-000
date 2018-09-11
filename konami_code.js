@@ -42,14 +42,14 @@
 
 
 function init() {
-  var index = -1;
+  var index = 0;
 
   document.body.addEventListener('keydown', function(e) {
      const keys = e.key;
     // console.log(keyPressed);
 
      if (keys === codes[index]) {
-         console.log(keys);
+         console.log(event);
          index++;
 
         if (index === codes.length) {
