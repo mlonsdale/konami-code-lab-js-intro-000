@@ -9,7 +9,7 @@
      console.log("pressed " + whichKey);
 
      if (whichKey === codes[index]) {
-          index++;
+          codes.index++;
 
          if (index === codes.length) {
            window.alert("Hurray!");
