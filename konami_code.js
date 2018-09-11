@@ -13,7 +13,7 @@
 
      if (whichKey === codes[index]) {
           console.log(codes[index]);
-          codes.index++;
+          index++;
           console.log(codes[index]);
 
          if (index === codes.length) {
