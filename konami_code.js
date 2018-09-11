@@ -6,6 +6,7 @@
    document.body.addEventListener('keydown', function(event) {
      const eventType = event.type;
      const whichKey = event.code;
+     const repeating = event.repeat
 
      console.log(eventType);
 
