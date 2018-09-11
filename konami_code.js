@@ -45,10 +45,10 @@ function init() {
   var index = 0;
 
   document.body.addEventListener('keydown', function(e) {
-     const keysPressed = keyboardEvent.key;
-     console.log(keyboardEvent.key);
+     const keyPressed = keyboardEvent.key;
+     console.log();
 
-     if (keysPressed === codes[index-1]) {
+     if (keyPressed === codes[index-1]) {
          //console.log(event);
          index++;
 
