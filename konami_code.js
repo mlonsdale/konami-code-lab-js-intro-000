@@ -8,8 +8,7 @@
       console.log("match " + codes[index]);
 
       if (keyPressed === codes[index]) {
-          //console.log(codes[index], codes[length])
-          //console.log("key pressed: " + keyPressed);
+          console.log("pressed " + keyPressed)
           index++;
 
          if (index === codes.length) {
