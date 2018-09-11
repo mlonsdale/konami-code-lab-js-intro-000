@@ -54,7 +54,7 @@ function init() {
 
         if (index === codes.length) {
           window.alert("Hurray!");
-          console.log("YAY!!!");
+          //console.log("YAY!!!");
           index = -1;
         }
 
