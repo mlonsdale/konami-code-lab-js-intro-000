@@ -3,7 +3,7 @@
  function init() {
    let index = -1;
 
-   document.body.addEventListener('keydown', function(event) {
+   document.body.addEventListener('keydown', function(e) {
       const keyPressed = event.key;
       console.log(e.key);
 
