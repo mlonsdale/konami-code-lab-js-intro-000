@@ -25,7 +25,7 @@
 }
 
 
-document.body.addEventListener('keydown', keyHandler(event));
+document.body.addEventListener('keydown', keyHandler());
 
 
 
