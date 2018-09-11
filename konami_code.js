@@ -7,9 +7,9 @@
      const eventType = event.type;
      const whichKey = event.code;
      const repeating = event.repeat;
-     const location = event.location;
+     const locate = event.location;
 
-     console.log(location);
+     console.log(locate);
 
      if (whichKey === codes[index]) {
           codes.index++;
