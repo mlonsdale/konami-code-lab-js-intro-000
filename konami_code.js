@@ -3,11 +3,9 @@
  function init() {
    let index = 0;
 
-   document.body.addEventListener('keydown', (event) => {
-      const keyPressed = event.key;
-
-
-      if (keyPressed === codes[index]) {
+   document.body.addEventListener('keydown', function(e) {       
+     const keyPressed = e.key;
+     if (keyPressed === codes[index]) {
           console.log("pressed " + keyPressed)
           index++;
 
