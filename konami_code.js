@@ -60,8 +60,8 @@ function init() {
 
      } else {
         index = -1;
-        console.log(keys);
-        console.log(" incorrect key");
+        //console.log(keys);
+        //console.log(" incorrect key");
      }
    })
 }
