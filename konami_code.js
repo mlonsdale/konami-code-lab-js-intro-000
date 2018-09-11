@@ -55,11 +55,11 @@ function init() {
         if (index === codes.length) {
           window.alert("Hurray!");
           //console.log("YAY!!!");
-          index = -1;
+          index = 0;
         }
 
      } else {
-        index = -1;
+        index = 0;
         //console.log(keys);
         //console.log(" incorrect key");
      }
