@@ -49,7 +49,7 @@ function init() {
     // console.log(keyPressed);
 
      if (keys === codes[index]) {
-         console.log(keys);
+         //console.log(keys);
          index++;
 
         if (index === codes.length) {
