@@ -7,28 +7,23 @@
      var newKey = e.key;
      console.log(newKey);
 
+
+     if (newKey === konami[index]) {
+         console.log("pressed ")
+         index++;
+
+        if (index === konami.length) {
+          window.alert("Hurray!");
+          //console.log("YAY!!!");
+          index = -1;
+        }
+
+     } else {
+        index = -1;
    }
 
 
-   document.body.addEventListener('keydown', keyHandler(e)) {
-
-      if (newKey === konami[index]) {
-          console.log("pressed ")
-          index++;
-
-         if (index === konami.length) {
-           window.alert("Hurray!");
-           //console.log("YAY!!!");
-           index = -1;
-         }
-
-      } else {
-         index = -1;
-         //console.log(keys);
-         //console.log(" incorrect key");
-      }
-    })
- }
+   document.body.addEventListener('keydown', keyHandler(e)) 
 
 
 
