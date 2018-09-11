@@ -5,7 +5,7 @@
 
    document.body.addEventListener('keydown', (event) => {
       const newKey = event.key;
-      console.log(new);
+      console.log(newKey);
 
       if (newKey === konami[index]) {
           console.log("pressed ")
