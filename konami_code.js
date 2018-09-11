@@ -15,7 +15,7 @@
         if (index === konami.length) {
           window.alert("Hurray!");
           //console.log("YAY!!!");
-          index = -1;
+          index = 0;
         }
 
      } else {
