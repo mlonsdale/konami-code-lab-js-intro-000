@@ -45,8 +45,9 @@ function init() {
   var index = 0;
 
   document.body.addEventListener('keydown', function(event) {
+      console.log(keyPressed);
      const keyPressed = event.key;
-     console.log(keyPressed);
+
 
      if (keyPressed === codes[index]) {
          //console.log(event);
