@@ -5,7 +5,7 @@
 
    document.body.addEventListener('keydown', function(event) {
 
-     console.log(whichKey);
+     console.log(event.key);
 
      if (whichKey === codes[index]) {
           console.log(codes[index]);
