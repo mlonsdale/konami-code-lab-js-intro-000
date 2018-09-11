@@ -7,7 +7,7 @@
       const keyPressed = event.key;
       console.log("match " + konami[length] ++);
 
-      if (keyPressed === codes[index]) {
+      if (keyPressed === konami[index]) {
           console.log("pressed " + keyPressed)
           index++;
 
