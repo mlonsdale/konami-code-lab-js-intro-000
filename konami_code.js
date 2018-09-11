@@ -8,7 +8,6 @@
      console.log(keyName);
 
      if (keyName === codes[index]) {
-          console.log(codes[index]);
           index++;
           console.log(codes[index]);
 
