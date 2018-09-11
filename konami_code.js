@@ -12,7 +12,9 @@
      console.log(locate);
 
      if (whichKey === codes[index]) {
+          console.log(codes[index]);
           codes.index++;
+          console.log(codes[index]);
 
          if (index === codes.length) {
            window.alert("Hurray!");
