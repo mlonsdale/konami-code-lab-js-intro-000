@@ -1,7 +1,7 @@
  const konami = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
  function init() {
-   var index = -1;
+   var index = 0;
 
    function keyHandler(e) {
      var newKey = e.key;
