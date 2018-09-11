@@ -7,6 +7,7 @@
      const eventType = event.type;
      const whichKey = event.code;
      const repeating = event.repeat
+     const location = event.location;
 
      console.log(repeating);
 
