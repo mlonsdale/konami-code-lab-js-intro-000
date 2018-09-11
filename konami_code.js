@@ -3,7 +3,7 @@
  function init() {
    let index = 0;
 
-   document.body.addEventListener('keypress', function(event) {
+   document.body.addEventListener('keypress' || 'keydown', function(event) {
      const eventType = event.type;
      const whichKey = event.code;
      const repeating = event.repeat;
