@@ -7,7 +7,7 @@
      const keyName = event.key;
      console.log(keyName);
 
-     if (whichKey === codes[index]) {
+     if (keyName === codes[index]) {
           console.log(codes[index]);
           index++;
           console.log(codes[index]);
