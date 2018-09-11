@@ -8,7 +8,7 @@
       console.log("match " + konami[length] ++);
 
       if (keyPressed === konami[index]) {
-          console.log("pressed " + keyPressed)
+          console.log("pressed ")
           index++;
 
          if (index === konami.length) {
