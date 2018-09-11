@@ -1,31 +1,29 @@
- const konami = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+ const codes = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
  function init() {
-   var index = 0;
+   let index = 0;
 
-   function keyHandler(e) {
-     var newKey = keydown.key;
-     console.log(newKey);
-
-
-     if (newKey === konami[index]) {
-         console.log("pressed ")
-         index++;
-
-        if (index === konami.length) {
-          window.alert("Hurray!");
-          //console.log("YAY!!!");
-          index = 0;
-        }
-
-     } else {
-        index = 0;
-   }
-
-}
+   document.body.addEventListener('keydown', (event) => {
+      const keyPressed = event.key;
 
 
-document.body.addEventListener('keydown', keyHandler());
+      if (keyPressed === codes[index]) {
+          console.log("pressed " + keyPressed)
+          index++;
+
+         if (index === codes.length) {
+           window.alert("Hurray!");
+           //console.log("YAY!!!");
+           index = 0;
+         }
+
+      } else {
+         index = 0;
+         //console.log(keys);
+         //console.log(" incorrect key");
+      }
+    })
+ }
 
 
 
