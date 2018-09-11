@@ -11,7 +11,7 @@
           console.log("pressed " + keyPressed)
           index++;
 
-         if (index === codes.length) {
+         if (index === konami.length) {
            window.alert("Hurray!");
            //console.log("YAY!!!");
            index = -1;
