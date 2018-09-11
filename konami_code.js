@@ -1,11 +1,11 @@
- const codes = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+ const konami = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
  function init() {
    let index = -1;
 
    document.body.addEventListener('keydown', (event) => {
       const keyPressed = event.key;
-      console.log("match " + codes[length] ++);
+      console.log("match " + konami[length] ++);
 
       if (keyPressed === codes[index]) {
           console.log("pressed " + keyPressed)
