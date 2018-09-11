@@ -4,7 +4,7 @@
    var index = 0;
 
    function keyHandler(e) {
-     var newKey = e.key;
+     var newKey = keydown.key;
      console.log(newKey);
 
 
@@ -23,7 +23,9 @@
    }
 
 }
-   document.body.addEventListener('keydown', keyHandler(event));
+
+
+document.body.addEventListener('keydown', keyHandler(event));
 
 
 
