@@ -3,12 +3,12 @@
  function init() {
    let index = -1;
 
-   document.body.addEventListener('keydown', (event) => {
+   document.body.addEventListener('keyup', (event) => {
       const keyPressed = event.key;
       console.log(codes);
 
       if (keyPressed === codes[index]) {
-          console.log(codes[index], codes[length)
+          console.log(codes[index], codes[length])
           console.log("key pressed: " + keyPressed);
           index++;
 
