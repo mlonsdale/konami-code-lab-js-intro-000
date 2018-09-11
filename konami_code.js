@@ -42,7 +42,7 @@
 
 
 function init() {
-  var index = 0;
+  let index = 0;
 
   document.body.addEventListener('keydown', function(event) {
      const keyPressed = event.key;
