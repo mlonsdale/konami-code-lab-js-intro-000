@@ -6,7 +6,7 @@
    document.body.addEventListener('keydown', function(event) {
      const eventType = event.type;
      const whichKey = event.key;
-     console.log("pressed " + whichKey);
+     console.log(whichKey);
 
      if (whichKey === codes[index]) {
           codes.index++;
