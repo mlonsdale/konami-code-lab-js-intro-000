@@ -4,10 +4,10 @@
    let index = -1;
 
    document.body.addEventListener('keydown', (event) => {
-      const new = event.key;
+      const newKey = event.key;
       console.log(new);
 
-      if (keyPressed === konami[index]) {
+      if (newKey === konami[index]) {
           console.log("pressed ")
           index++;
 
