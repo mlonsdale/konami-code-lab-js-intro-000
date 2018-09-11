@@ -45,7 +45,7 @@ function init() {
   var index = 0;
 
   document.body.addEventListener('keyup', function(keyboardEvent) {
-     const keyPressed = keyboardEvent.key;
+     const keyPressed = keyup.key;
      console.log(keyPressed);
 
      if (keyPressed === codes[index]) {
