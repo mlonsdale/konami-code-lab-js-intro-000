@@ -8,7 +8,7 @@
      const whichKey = event.code;
      const repeating = event.repeat
 
-     console.log(eventType);
+     console.log(repeating);
 
      if (whichKey === codes[index]) {
           codes.index++;
