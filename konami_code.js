@@ -4,7 +4,7 @@
    let index = 0;
 
    document.body.addEventListener('keydown', function(e) {
-     const keyPressed = e.type;
+     const keyPressed = e.locale;
      console.log("pressed " + keyPressed);
 
      if (keyPressed === codes[index]) {
