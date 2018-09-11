@@ -8,7 +8,7 @@
       console.log(codes[index]);
 
       if (keyPressed === codes[index]) {
-          console.log(codes[index], codes[length])
+          //console.log(codes[index], codes[length])
           console.log("key pressed: " + keyPressed);
           index++;
 
