@@ -46,7 +46,7 @@ function init() {
 
   document.body.addEventListener('keydown', function(keyboardEvent) {
      const keyPressed = keyboardEvent.key;
-     console.log(1);
+     console.log(keyPressed);
 
      if (keyPressed === codes[index-1]) {
          //console.log(event);
